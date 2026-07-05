@@ -18,7 +18,7 @@ Both steps can be run together with a single **Solve n Space** button, or indepe
 ## Requirements
 
 - Blender **4.2 or later**
-- The **[LoopTools](https://extensions.blender.org/add-ons/looptools/)** add-on must be installed
+- The **[LoopTools](https://extensions.blender.org/add-ons/looptools/)** add-on must be installed as the **Space** step in this add-on relies on it to work correctly
 
 ---
 
@@ -62,7 +62,7 @@ If the target count cannot be reached (e.g. the selection is too simple to disso
 
 ## Credits
 
-The **Space** step in this add-on relies on [LoopTools](https://extensions.blender.org/add-ons/looptools/), a mesh modelling toolkit bundled with Blender.
+The **Space** step in this add-on relies on [LoopTools](https://extensions.blender.org/add-ons/looptools/), an amazing add-on.
 
 - **Bart Crouch** — original author of LoopTools
 - **Vladimir Spivak (cwolf3d)** — current maintainer of LoopTools
