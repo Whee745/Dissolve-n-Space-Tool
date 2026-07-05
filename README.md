@@ -18,7 +18,7 @@ Both steps can be run together with a single **Solve n Space** button, or indepe
 ## Requirements
 
 - Blender **4.2 or later**
-- The **[LoopTools](https://extensions.blender.org/add-ons/looptools/)** add-on must be installed as the **Space** step in this add-on relies on it to work correctly
+- The **[LoopTools](https://extensions.blender.org/add-ons/looptools/)** add-on must be installed as the **Space** step in this add-on relies on it to work correctly.
 
 ---
 
