@@ -18,7 +18,7 @@ Both steps can be run together with a single **Solve** button, or independently.
 ## Requirements
 
 - Blender **4.2 or later**
-- The built-in **LoopTools** add-on must be installed
+- The **[LoopTools](https://extensions.blender.org/add-ons/looptools/)** add-on must be installed
 
 ---
 
