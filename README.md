@@ -2,11 +2,11 @@
 
 A Blender add-on that reduces a vertex selection to a user-defined count via iterative Limited Dissolve, then redistributes the remaining vertices evenly along the original curve using [LoopTools](https://extensions.blender.org/add-ons/looptools/) Space
 
+Built to fit my own workflow. Working with dense edge loops often means manually dissolving vertices one by one until the shape looks right. It was slow and repetitive, so I vibecoded this to automate it. No formal coding background, but I studied every part of the code carefully to keep it clean and purposeful. Publishing it in case anyone else finds it useful. Feedback and contributions are welcome.
+
 ---
 
 ## What it does
-
-Working with dense edge loops often means manually dissolving vertices one by one until the shape looks right. This add-on automates that process:
 
 1. **Dissolve** — finds the minimum dissolve angle needed to bring your selected vertex count down to a target number, using an exponential scan + binary search approach (~18 operations vs. hundreds for a brute-force method).
 2. **Space** — runs LoopTools Space on the result to redistribute the remaining vertices evenly, preserving the overall curve shape.
