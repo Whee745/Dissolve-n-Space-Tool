@@ -11,7 +11,7 @@ Working with dense edge loops often means manually dissolving vertices one by on
 1. **Dissolve** — finds the minimum dissolve angle needed to bring your selected vertex count down to a target number, using an exponential scan + binary search approach (~18 operations vs. hundreds for a brute-force method).
 2. **Space** — runs LoopTools Space on the result to redistribute the remaining vertices evenly, preserving the overall curve shape.
 
-Both steps can be run together with a single **Solve** button, or independently.
+Both steps can be run together with a single **Solve n Space** button, or independently.
 
 ---
 
@@ -52,7 +52,7 @@ Switch to **Edit Mode** on any mesh object, then open the **Sidebar** (press `N`
 
 | Button | What it does |
 |---|---|
-| **Solve** | Runs Dissolve then Space back to back |
+| **Solve n Space** | Runs Dissolve then Space back to back |
 | **Dissolve** | Reduces vertex count to the target only |
 | **Space** | Evenly redistributes the current selection only |
 
@@ -74,7 +74,3 @@ The **Space** step in this add-on relies on [LoopTools](https://extensions.blend
 GNU General Public License v3.0 — see [LICENSE](LICENSE) for details.
 
 ---
-
-## Author
-
-Made by **WheeNg**
