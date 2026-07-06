@@ -38,11 +38,17 @@ Go to `Edit > Preferences > Add-ons`, search for **LoopTools**, and check the bo
 - Select the downloaded `.zip` file
 - Enable the add-on by checking the box next to **Dissolve & Space Tool**
 
+**3. Location**
+- Switch to **Edit Mode** on any mesh object -> **Sidebar** -> **Edit** tab -> **Dissolve & Space Tool**.
+
 ---
 
-## Where to find it
+## Recommended use case
 
-Switch to **Edit Mode** on any mesh object -> **Sidebar** -> **Edit** tab -> **Dissolve & Space Tool**.
+<img width="1920" height="1080" alt="Demo" src="https://github.com/user-attachments/assets/d965acf5-05a1-4d0b-a8fa-324569c6188b" />
+
+**Work best with:**
+- N-gon and disconnected edges
 
 ---
 
