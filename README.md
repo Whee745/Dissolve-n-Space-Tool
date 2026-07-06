@@ -26,7 +26,7 @@ Both steps can be run together with a single **Solve n Space** button, or indepe
 
 ## Installation
 
-**1. Enable LoopTools** (if not already on)
+**1. Enable [LoopTools](https://extensions.blender.org/add-ons/looptools/)** (if not already on)
 
 Go to `Edit > Preferences > Add-ons`, search for **LoopTools**, and check the box to enable it.
 
@@ -42,7 +42,7 @@ Go to `Edit > Preferences > Add-ons`, search for **LoopTools**, and check the bo
 
 ## Where to find it
 
-Switch to **Edit Mode** on any mesh object, then open the **Sidebar** (press `N` if it's hidden) and go to the **Edit** tab. The panel is labeled **Dissolve & Space**.
+Switch to **Edit Mode** on any mesh object -> **Sidebar** -> **Edit** tab -> **Dissolve & Space Tool**.
 
 ---
 
