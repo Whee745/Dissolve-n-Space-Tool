@@ -11,7 +11,12 @@ Built to fit my own workflow. Mostly for mesh optimization. It was slow and repe
 ## What it does
 
 1. **Dissolve** — finds the minimum dissolve angle needed to bring your selected vertex count down to a target number, using an exponential scan + binary search approach (~18 operations vs. hundreds for a brute-force method).
+
+  *Works like Limited Dissolve, but instead of manually adjusting the Angle Limit each time to hit a specific vertex count, you set a Target Count and the add-on runs the algorithm in the background, continuously stepping through angle values until the result is equal to or as close as possible to your target.
+   
 2. **Space** — runs LoopTools Space on the result to redistribute the remaining vertices evenly, preserving the overall curve shape.
+
+The priority is to reduce vertex count while preserving the overall curve shape — rather than deleting vertices outright and losing the curve entirely.
 
 Both steps can be run together with a single **Solve n Space** button, or independently.
 
